@@ -14,7 +14,7 @@ function Converse() {
                 <div className="converse-left">
                     <h1>Halcyon</h1>
                     <div className="contents">
-                        <div onClick={() => navigate('/desktop')}>
+                        <div onClick={() => navigate('/dashboard')}>
                             <img src={home_icon} alt="home icon" />
                             Home
                         </div>
@@ -42,10 +42,7 @@ function Converse() {
 
                     <div className="converse-container">
                         <div className="converse-container-left">
-                            <div>Smita</div>
-                            <div>Darshita</div>
-                            <div>Khushbu</div>
-                            <div>Rajesh</div>
+                            No connections yet.
                         </div>
 
                         <div className="converse-container-right">

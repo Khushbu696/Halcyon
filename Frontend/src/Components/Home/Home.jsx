@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Homepage.css";
+import "./Home.css";
 import logo from "../../assets/logo.png";
 import group_chat from "../../assets/group_chat.jpg";
 import diary02 from "../../assets/diary02.png";
@@ -8,7 +8,7 @@ import goal_tracking from "../../assets/goal_tracking.png";
 import diary01 from "../../assets/diary01.jpg";
 import chat from "../../assets/chat.jpg";
 
-function Homepage() {
+function Home() {
   const navigate = useNavigate();
 
   let [currentIndex, setCurrentIndex] = useState(0);
@@ -186,4 +186,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;

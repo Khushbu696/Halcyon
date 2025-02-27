@@ -4,10 +4,10 @@ import help_icon from '../../assets/help.png'
 import log_out from '../../assets/logout.png'
 import chat from '../../assets/chat.jpg'
 import diary from '../../assets/diary01.jpg'
-import './Desktop.css'
+import './Dashboard.css'
 import { useNavigate } from 'react-router-dom';
 
-function Desktop() {
+function Dashboard() {
     const navigate = useNavigate();
     
     return (
@@ -42,14 +42,14 @@ function Desktop() {
                     <div className="desktop-options">
                         <div className="desktop-converse">
                             <div>
-                                <img src={chat} alt="two people chatting" onClick={() => navigate('/desktop/converse')}/>
+                                <img src={chat} alt="two people chatting" onClick={() => navigate('/dashboard/converse')}/>
                             </div>
                             <div>Converse</div>
                         </div>
 
                         <div className="desktop-diary">
                             <div>
-                                <img src={diary} alt="diary" onClick={() => navigate('/desktop/diary')}/>
+                                <img src={diary} alt="diary" onClick={() => navigate('/dashboard/diary')}/>
                             </div>
                             <div>Diary</div>
                         </div>
@@ -60,4 +60,4 @@ function Desktop() {
     );
 }
 
-export default Desktop
+export default Dashboard
